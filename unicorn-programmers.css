@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Unicorn Programmers';
-	src:url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.eot?-rdvxxm');
-	src:url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.eot?#iefix-rdvxxm') format('embedded-opentype'),
-		url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.woff?-rdvxxm') format('woff'),
-		url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.ttf?-rdvxxm') format('truetype'),
-		url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.svg?-rdvxxm#unicorn') format('svg');
+	src:url('unicorn-programmers/unicorn-programmers.eot?-rdvxxm');
+	src:url('unicorn-programmers/unicorn-programmers.eot?#iefix-rdvxxm') format('embedded-opentype'),
+		url('unicorn-programmers/unicorn-programmers.woff?-rdvxxm') format('woff'),
+		url('unicorn-programmers/unicorn-programmers.ttf?-rdvxxm') format('truetype'),
+		url('unicorn-programmers/unicorn-programmers.svg?-rdvxxm#unicorn') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
