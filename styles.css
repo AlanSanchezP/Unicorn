@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box !important;
+}
 [class^="up-"] {
-  font-size: 50px;
+  font-size: 42px;
   transition: color 0.2s;
+  width: 150px;
 }
 [class^="up-"]:hover {
   color: #666;
@@ -39,7 +43,7 @@ code {
   color: #444;
   display: inline-block;
   margin: 5px;
-  width: 310px;
+  width: 300px;
   padding: 20px 10px;
   text-align: left;
 }
@@ -47,7 +51,9 @@ code {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  width: 150px;
+}
+.element-name {
+  width: 120px;
 }
 header {
   height: auto;
@@ -74,8 +80,8 @@ nav {
 #unicorn-menu li {
   display: inline-block;
   line-height: 50px;
-  font-size: 17px;
-  margin: 0 5px;
+  font-size: 16px;
+  margin: 0 1px;
 }
 #unicorn-menu li a {
   color: #fff;
