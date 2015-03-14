@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'Unicorn Programmers';
+	src:url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.eot?-rdvxxm');
+	src:url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.eot?#iefix-rdvxxm') format('embedded-opentype'),
+		url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.woff?-rdvxxm') format('woff'),
+		url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.ttf?-rdvxxm') format('truetype'),
+		url('https://raw.githubusercontent.com/AlanSanchezP/Unicorn/master/unicorn-programmers/font/unicorn-programmers.svg?-rdvxxm#unicorn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="up-"] {
+	font-family: 'Unicorn Programmers';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 30px;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.up-angular:before {
+	content: "\e646";
+}
+
+.up-angular-text:before {
+	content: "\e647";
+}
+
+.up-backbone:before {
+	content: "\e644";
+}
+
+.up-backbone-text:before {
+	content: "\e613";
+}
+
+.up-bootstrap:before {
+	content: "\e643";
+}
+
+.up-bower:before {
+	content: "\e642";
+}
+
+.up-css:before {
+	content: "\e640";
+}
+
+.up-css-text:before {
+	content: "\e641";
+}
+
+.up-django-pony:before {
+	content: "\e612";
+}
+
+.up-django-text:before {
+	content: "\e63f";
+}
+
+.up-git:before {
+	content: "\e60f";
+}
+
+.up-git-text:before {
+	content: "\e610";
+}
+
+.up-github:before {
+	content: "\e611";
+}
+
+.up-github-text:before {
+	content: "\e615";
+}
+
+.up-grunt:before {
+	content: "\e60d";
+}
+
+.up-grunt-text:before {
+	content: "\e60e";
+}
+
+.up-html:before {
+	content: "\e60b";
+}
+
+.up-html-text:before {
+	content: "\e60c";
+}
+
+.up-java:before {
+	content: "\e609";
+}
+
+.up-java-text:before {
+	content: "\e60a";
+}
+
+.up-javascript:before {
+	content: "\e608";
+}
+
+.up-jquery:before {
+	content: "\e606";
+}
+
+.up-jquery-text:before {
+	content: "\e607";
+}
+
+.up-mysql:before {
+	content: "\e604";
+}
+
+.up-mysql-text:before {
+	content: "\e605";
+}
+
+.up-python:before {
+	content: "\e602";
+}
+
+.up-python-text:before {
+	content: "\e603";
+}
+
+.up-rails:before {
+	content: "\e601";
+}
+
+.up-ruby:before {
+	content: "\e600";
+}
+
+
+
+
+
+
+
+
+

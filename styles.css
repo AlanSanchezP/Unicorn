@@ -1,0 +1,77 @@
+[class^="up-"] {
+  font-size: 50px;
+  transition: color 0.2s;
+}
+[class^="up-"]:hover {
+  color: #666;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #3d91be;
+  color: #444;
+  font-family: Open Sans;
+  margin: 0;
+  text-align: center;
+}
+#elements-demo {
+  display: inline-block;
+  margin-bottom: 30px;
+  max-width: 1200px;
+}
+.element {
+  background: #67caff;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 5px;
+  width: 310px;
+  padding: 20px 10px;
+  text-align: left;
+}
+.element * {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+}
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+header {
+  height: auto;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 1200px;
+  width: 100%;
+}
+header img {
+  width: 100%;
+}
+nav {
+  background: #3d91be;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+#unicorn-menu {
+  margin: 0;
+  margin-left: -30px;
+}
+#unicorn-menu li {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 17px;
+  margin: 0 5px;
+}
+#unicorn-menu li a {
+  color: #fff;
+  transition: color 0.2s;
+}
+#unicorn-menu li a:hover {
+  color: #555;
+}
