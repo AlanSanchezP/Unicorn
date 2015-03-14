@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="UnicornApp">
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="unicorn-programmers.css">
 	<link rel="stylesheet" href="styles.css">
-	<title>Unicorn - Icon Fonts</title>
+	<title>Unicorn - {{title}}</title>
+	<script src="https://code.angularjs.org/1.3.14/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.3.14/angular-route.min.js"></script>
+	<script src="app.js"></script>
 </head>
 <body>
 	<nav>
 		<ul id="unicorn-menu">
-			<li><a href="#">Icons</a></li>
-			<li><a href="#">How to use</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">View on Github</a></li>
+			<li><a href="#/">Icons</a></li>
+			<li><a href="#/how">How to use</a></li>
+			<li><a href="#/about">About</a></li>
+			<li><a href="https://github.com/AlanSanchezP/Unicorn">View on Github</a></li>
 		</ul>
 	</nav>
 	<header>
@@ -20,124 +23,7 @@
 			<img src="unicorn-with-text.png" alt="Unicorn">
 		</figure>
 	</header>
-	<section id="elements-demo">
-		<h2>Unicorn Programmers</h2>
-		<article class="element">
-			<span class="up-angular"></span>
-			<span class="element-name">up-angular</span>
-		</article>
-		<article class="element">
-			<span class="up-angular-text"></span>
-			<span class="element-name">up-angular-text</span>
-		</article>
-		<article class="element">
-			<span class="up-backbone"></span>
-			<span class="element-name">up-backbone</span>
-		</article>
-		<article class="element">
-			<span class="up-backbone-text"></span>
-			<span class="element-name">up-backbone-text</span>
-		</article>
-		<article class="element">
-			<span class="up-bootstrap"></span>
-			<span class="element-name">up-bootstrap</span>
-		</article>
-		<article class="element">
-			<span class="up-bower"></span>
-			<span class="element-name">up-bower</span>
-		</article>
-		<article class="element">
-			<span class="up-css"></span>
-			<span class="element-name">up-css</span>
-		</article>
-		<article class="element">
-			<span class="up-css-text"></span>
-			<span class="element-name">up-css-text</span>
-		</article>
-		<article class="element">
-			<span class="up-django-pony"></span>
-			<span class="element-name">up-django-pony</span>
-		</article>
-		<article class="element">
-			<span class="up-django-text"></span>
-			<span class="element-name">up-django-text</span>
-		</article>
-		<article class="element">
-			<span class="up-git"></span>
-			<span class="element-name">up-git</span>
-		</article>
-		<article class="element">
-			<span class="up-git-text"></span>
-			<span class="element-name">up-git-text</span>
-		</article>
-		<article class="element">
-			<span class="up-github"></span>
-			<span class="element-name">up-github</span>
-		</article>
-		<article class="element">
-			<span class="up-github-text"></span>
-			<span class="element-name">up-github-text</span>
-		</article>
-		<article class="element">
-			<span class="up-grunt"></span>
-			<span class="element-name">up-grunt</span>
-		</article>
-		<article class="element">
-			<span class="up-grunt-text"></span>
-			<span class="element-name">up-grunt-text</span>
-		</article>
-		<article class="element">
-			<span class="up-html"></span>
-			<span class="element-name">up-html</span>
-		</article>
-		<article class="element">
-			<span class="up-html-text"></span>
-			<span class="element-name">up-html-text</span>
-		</article>
-		<article class="element">
-			<span class="up-java"></span>
-			<span class="element-name">up-java</span>
-		</article>
-		<article class="element">
-			<span class="up-java-text"></span>
-			<span class="element-name">up-java-text</span>
-		</article>
-		<article class="element">
-			<span class="up-javascript"></span>
-			<span class="element-name">up-javascript</span>
-		</article>
-		<article class="element">
-			<span class="up-jquery"></span>
-			<span class="element-name">up-jquery</span>
-		</article>
-		<article class="element">
-			<span class="up-jquery-text"></span>
-			<span class="element-name">up-jquery-text</span>
-		</article>
-		<article class="element">
-			<span class="up-mysql"></span>
-			<span class="element-name">up-mysql</span>
-		</article>
-		<article class="element">
-			<span class="up-mysql-text"></span>
-			<span class="element-name">up-mysql-text</span>
-		</article>
-		<article class="element">
-			<span class="up-python"></span>
-			<span class="element-name">up-python</span>
-		</article>
-		<article class="element">
-			<span class="up-python-text"></span>
-			<span class="element-name">up-python-text</span>
-		</article>
-		<article class="element">
-			<span class="up-ruby"></span>
-			<span class="element-name">up-ruby</span>
-		</article>
-		<article class="element">
-			<span class="up-rails"></span>
-			<span class="element-name">up-rails</span>
-		</article>
-	</section>
+	<main ng-view></main>
+	<footer>Unicorn was created by <a href="https://github.com/AlanSanchezP">Alan Sánchez</a></footer>
 </body>
 </html>
