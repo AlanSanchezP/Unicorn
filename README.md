@@ -8,7 +8,7 @@ SVG Icon Fonts
 2. Uncompress the .zip file.
 3. Import the font to your HTML document.
 
-   `` <link rel="stylesheet" href="unicorn-programmers/unicorn-programmers.css"> ``
+   `` <link rel="stylesheet" href="Unicorn-programmers/unicorn-programmers.css"> ``
 
 4. Just use the icons :D! CSS classes names are in the [Icons Section](http://alansanchezp.github.io/Unicorn/).
 
